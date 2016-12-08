@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">NottsPark</string>
+    <string name="title_activity_maps">NottsPark</string>
+    <string name="title_activity_main">NottsPark</string>
+    <string name="google_maps_key">AIzaSyBK4fUWbEoDTG_gnbFVYjFzS7IQiyJBSP8</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="minute_prompt">Choose a country</string>
+    <string name="parker">Parker</string>
+    <string name="leaver">Leaver</string>
+    <string name="login">Login</string>
+    <string-array name="minute_array">
+        <item>Now</item>
+        <item>10 Minutes</item>
+        <item>20 Minutes</item>
+        <item>30 Minutes</item>
+        <item>40 Minutes</item>
+        <item>1 Hour</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
