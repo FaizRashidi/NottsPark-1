@@ -95,6 +95,9 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_profile:
                 fragmentClass = UserProfile.class;
                 break;
+            case R.id.nav_history:
+                fragmentClass = UserHistory.class;
+                break;
             case R.id.nav_setting:
                 fragmentClass = AccSetting.class;
                 break;

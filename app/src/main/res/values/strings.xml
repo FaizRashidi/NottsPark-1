@@ -42,5 +42,7 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="add_vehicle">+ Add Vehicle</string>
+    <string name="register">Register</string>
 
 </resources>

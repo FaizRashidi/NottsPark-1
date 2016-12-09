@@ -83,7 +83,7 @@ public class LoginActivity extends AppCompatActivity {
 //            }
 //        });
 
-        Button mUsernameSignInButton = (Button) findViewById(R.id.username_sign_in_button);
+        Button mUsernameSignInButton = (Button) findViewById(R.id.btnSignIn);
         mUsernameSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
