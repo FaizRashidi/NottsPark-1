@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">NottsPark</string>
-    <string name="title_activity_maps">NottsPark</string>
     <string name="title_activity_main">NottsPark</string>
     <string name="google_maps_key">AIzaSyBK4fUWbEoDTG_gnbFVYjFzS7IQiyJBSP8</string>
 
-
+    <string name="action_settings">Settings</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
@@ -20,11 +19,18 @@
         <item>40 Minutes</item>
         <item>1 Hour</item>
     </string-array>
-    <string name="title_activity_login">Sign in</string>
 
-    <string name="action_settings">Settings</string>
+    <!--Fragment user registration -->
+    <string name="vehicle_prompt">Choose a country</string>
+    <string-array name="vehicle_array">
+        <item>Nissan</item>
+        <item>Honda</item>
+        <item>Proton</item>
+    </string-array>
+
 
     <!-- Strings related to login -->
+    <string name="title_activity_login">Sign in</string>
     <string name="prompt_username">Username</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in</string>
@@ -37,6 +43,4 @@
         completions."
     </string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -89,9 +89,6 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
         Class fragmentClass;
         switch (item.getItemId()) {
-            case R.id.nav_dashboard:
-                fragmentClass = Dashboard.class;
-                break;
             case R.id.nav_requestParking:
                 fragmentClass = MapActivity.class;
                 break;
@@ -114,7 +111,7 @@ public class MainActivity extends AppCompatActivity
                 fragmentClass = LogOut.class;
                 break;
             default:
-                fragmentClass = Dashboard.class;
+                fragmentClass = MapActivity.class;
         }
 
         try {
