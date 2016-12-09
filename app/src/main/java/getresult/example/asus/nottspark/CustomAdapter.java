@@ -56,7 +56,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         // Create a new view.
         View v = LayoutInflater.from(viewGroup.getContext())
-                .inflate(R.layout.fragment_user_history, viewGroup, false);
+                .inflate(R.layout.text_row_item, viewGroup, false);
 
         return new ViewHolder(v);
     }
@@ -77,4 +77,3 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         return mDataSet.length;
     }
 }
-
