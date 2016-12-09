@@ -7,7 +7,6 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="minute_prompt">Choose a country</string>
     <string name="parker">Parker</string>
     <string name="leaver">Leaver</string>
     <string name="login">Login</string>
@@ -21,7 +20,6 @@
     </string-array>
 
     <!--Fragment user registration -->
-    <string name="vehicle_prompt">Choose a country</string>
     <string-array name="vehicle_array">
         <item>Nissan</item>
         <item>Honda</item>

@@ -45,8 +45,6 @@
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
-
-        <activity android:name=".UserRegisteration"></activity>
     </application>
 
 </manifest>

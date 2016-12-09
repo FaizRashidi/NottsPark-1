@@ -81,7 +81,6 @@
             android:entries="@array/minute_array"
             android:paddingBottom="9dp"
             android:paddingTop="9dp"
-            android:prompt="@string/minute_prompt"
             android:spinnerMode="dropdown"
             android:textAlignment="center" />
 
