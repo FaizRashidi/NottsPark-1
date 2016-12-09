@@ -17,10 +17,10 @@
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
-            android:layout_width="180dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:src="@mipmap/ic_launcher"
-            android:weight="1"
             app:civ_border_color="@color/yellow"
             app:civ_border_width="2dp" />
 
@@ -28,10 +28,10 @@
             android:id="@+id/profileUsername"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:foregroundGravity="center_vertical"
             android:gravity="center"
-            android:text="Username"
-            android:weight="1" />
+            android:text="Username" />
 
     </LinearLayout>
 
@@ -81,29 +81,24 @@
         android:layout_marginTop="5dp"
         android:background="@color/colorPrimaryDark" />
 
-    <com.rey.material.widget.Spinner
-        style="@style/Material.Widget.Spinner"
+    <Spinner
+        android:id="@+id/vehicleSpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:dropDownWidth="match_parent"
         android:entries="@array/vehicle_array"
         android:paddingBottom="9dp"
         android:paddingTop="9dp"
         android:prompt="@string/vehicle_prompt"
         android:spinnerMode="dropdown"
-        app:rd_style="@style/Material.Drawable.Ripple.Wave" />
+        android:textAlignment="center" />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/addVehicle"
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:layout_marginBottom="25dp"
-        android:background="@color/yellow"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:text="+ Add Vehicle"></Button>
 
-        <Button
-            android:id="@+id/addVehicle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="+ Add Vehicle"></Button>
-
-    </LinearLayout>
 </LinearLayout>

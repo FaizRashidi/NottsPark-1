@@ -71,7 +71,7 @@
         </LinearLayout>
 
         <Spinner
-            android:id="@+id/btnTime"
+            android:id="@+id/timeSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_columnSpan="2"
