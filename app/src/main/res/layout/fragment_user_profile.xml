@@ -24,15 +24,31 @@
             app:civ_border_color="@color/yellow"
             app:civ_border_width="2dp" />
 
-        <TextView
-            android:id="@+id/profileUsername"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:foregroundGravity="center_vertical"
             android:gravity="center"
-            android:text="Username" />
+            android:foregroundGravity="center_vertical"
+            android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/profileUsername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="Username" />
+
+            <TextView
+                android:id="@+id/profileCredit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="Credit" />
+
+        </LinearLayout>
     </LinearLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -84,10 +100,10 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Vehicles"
         android:textColor="@color/colorPrimaryDark"
-        android:textStyle="normal|bold"
-        android:layout_marginTop="10dp" />
+        android:textStyle="normal|bold" />
 
     <View
         android:layout_width="fill_parent"
@@ -103,13 +119,13 @@
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
         android:dropDownWidth="match_parent"
+        android:elevation="2dp"
         android:entries="@array/vehicle_array"
         android:paddingBottom="9dp"
         android:paddingTop="9dp"
         android:prompt="@string/vehicle_prompt"
         android:spinnerMode="dropdown"
-        android:textAlignment="center"
-        android:elevation="2dp" />
+        android:textAlignment="center" />
 
     <com.rey.material.widget.Button
         android:id="@+id/addVehicle"
