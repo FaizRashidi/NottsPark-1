@@ -16,17 +16,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
         android:orientation="vertical"
         android:weightSum="1">
 
+
         <ImageView
-            android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.48"
-            app:srcCompat="@mipmap/nottslogo" />
-
+            app:srcCompat="@mipmap/nottslogo"
+            android:id="@+id/imageView2"
+            android:layout_weight="0.52" />
 
         <AutoCompleteTextView
             android:id="@+id/username"
@@ -69,6 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@color/bluegrey50"
+            android:textColor="@android:color/black"
             android:elevation="2dp"
             android:text="@string/register"
             android:textStyle="bold"
