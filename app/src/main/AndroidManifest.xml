@@ -33,7 +33,7 @@
 
         <activity
             android:name=".LoginActivity"
-            android:label="NottsPark Login">
+            android:label="NottsPark">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -49,6 +49,14 @@
         <activity
             android:name=".UserRegistration"
             android:label="NottsPark User Registration"></activity>
+
+        <activity
+            android:name=".Parker"
+            android:label="Parker"></activity>
+
+        <activity
+            android:name=".Leaver"
+            android:label="Leaver"></activity>
 
     </application>
 

@@ -1,7 +1,6 @@
 package getresult.example.asus.nottspark;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -11,8 +10,6 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.LayoutInflater;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -30,10 +27,7 @@ public class MainActivity extends AppCompatActivity
 
         Intent intent = getIntent();
         String username = intent.getStringExtra("USERNAME");
-        LayoutInflater factory = getLayoutInflater();
-        View setUserNameView = factory.inflate(R.layout.nav_header_main, null);
-        mNav_username = (TextView) setUserNameView.findViewById(R.id.nav_username);
-        mNav_username.setText(username);
+
 
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -48,42 +42,23 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
+        View setUserNameView = ((NavigationView) findViewById(R.id.nav_view)).getHeaderView(0);
+        mNav_username = (TextView) setUserNameView.findViewById(R.id.nav_username);
+        mNav_username.setText(username);
+
         onNavigationItemSelected(navigationView.getMenu().getItem(0));
-
-        View parkerView = getLayoutInflater().inflate(R.layout.fragment_parker, null);
-        Button mSearchLeaverButton = (Button) parkerView.findViewById(R.id.btnSearchLeaver);
-        mSearchLeaverButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment fragment = new Parker();
-                searchParking(fragment);
-            }
-        });
-
-        Button mSearchParkerButton = (Button) parkerView.findViewById(R.id.btnSearchParker);
-        mSearchParkerButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Fragment fragment = new Leaver();
-                searchParking(fragment);
-            }
-        });
     }
 
-    public void searchParking(Fragment fragment) {
-        try {
-             // Insert the fragment by replacing any existing fragment
-            FragmentTransaction fragTransaction = getSupportFragmentManager().beginTransaction();
-            fragTransaction.replace(R.id.userMap, fragment);
-            fragTransaction.addToBackStack(null);
-            fragTransaction.commit();
-
-            // Set action bar title
-            setTitle("Search Leaver");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    public void searchParker(View v) {
+        Intent intent = new Intent(this, Leaver.class);
+        startActivity(intent);
     }
+
+    public void searchLeaver(View v) {
+        Intent intent = new Intent(this, Parker.class);
+        startActivity(intent);
+    }
+
 
     @Override
     public void onBackPressed() {
@@ -95,7 +70,6 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
@@ -103,7 +77,7 @@ public class MainActivity extends AppCompatActivity
         Class fragmentClass;
         switch (item.getItemId()) {
             case R.id.nav_requestParking:
-                fragmentClass = MapActivity.class;
+                fragmentClass = MapFragment.class;
                 break;
             case R.id.nav_profile:
                 fragmentClass = UserProfile.class;
@@ -127,7 +101,7 @@ public class MainActivity extends AppCompatActivity
                 fragmentClass = LogOut.class;
                 break;
             default:
-                fragmentClass = MapActivity.class;
+                fragmentClass = MapFragment.class;
         }
 
         try {

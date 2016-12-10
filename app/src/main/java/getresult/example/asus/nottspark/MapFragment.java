@@ -2,11 +2,7 @@ package getresult.example.asus.nottspark;
 
 import android.content.Intent;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,21 +15,43 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MapActivity extends Fragment implements OnMapReadyCallback {
+public class MapFragment extends Fragment implements OnMapReadyCallback, View.OnClickListener {
 
 
-    public MapActivity() {
+    public MapFragment() {
         // Required empty public constructor
     }
+
+    private Button mbtnLeaver;
+    private Button mbtnParker;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View v = inflater.inflate(R.layout.maps_fragment, container, false);
 
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.activity_maps, container, false);
+        mbtnLeaver = (Button) v.findViewById(R.id.btnLeaver);
+        mbtnLeaver.setOnClickListener(this);
+        mbtnParker = (Button) v.findViewById(R.id.btnParker);
+        mbtnParker.setOnClickListener(this);
+        return v;
     }
 
+    @Override
+    public void onClick(View v) {
+        Intent intent = null;
+        switch (v.getId()) {
+            case R.id.btnParker:
+                intent = new Intent(getActivity(), Parker.class);
+                break;
+            case R.id.btnLeaver:
+                intent = new Intent(getActivity(), Leaver.class);
+                break;
+        }
+
+        if (intent != null)
+            startActivity(intent);
+    }
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
