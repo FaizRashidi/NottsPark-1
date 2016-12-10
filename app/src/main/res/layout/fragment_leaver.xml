@@ -7,14 +7,20 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:weightSum="1"
-    tools:context="getresult.example.asus.nottspark.Parker">
+    tools:context="getresult.example.asus.nottspark.Leaver">
 
 
     <EditText
-        android:id="@+id/parkerBuilding"
+        android:id="@+id/leaverBuilding"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Building" />
+
+    <EditText
+        android:id="@+id/leaverDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Brief Description" />
 
     <Spinner
         android:id="@+id/parkerSpinner"
@@ -28,9 +34,9 @@
         android:fontFamily="sans-serif"
         android:paddingBottom="9dp"
         android:paddingTop="9dp"
-
         android:spinnerMode="dropdown"
         android:textSize="18sp" />
+
     <com.rey.material.widget.Button
         android:id="@+id/addVehicle"
         style="@style/Material.Drawable.Ripple.Touch"
@@ -43,7 +49,7 @@
         app:rd_enable="true" />
 
     <com.rey.material.widget.Button
-        android:id="@+id/btnSearchLeaver"
+        android:id="@+id/btnSearchParker"
         style="@style/Material.Drawable.Ripple.Touch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -73,7 +73,7 @@
             android:elevation="2dp"
             android:text="@string/register"
             android:textStyle="bold"
-            app:rd_enable="true" />
+            app:rd_enable="true"/>
 
     </LinearLayout>
 

@@ -15,6 +15,7 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 
@@ -49,7 +50,39 @@ public class MainActivity extends AppCompatActivity
 
         onNavigationItemSelected(navigationView.getMenu().getItem(0));
 
+        View parkerView = getLayoutInflater().inflate(R.layout.fragment_parker, null);
+        Button mSearchLeaverButton = (Button) parkerView.findViewById(R.id.btnSearchLeaver);
+        mSearchLeaverButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment fragment = new Parker();
+                searchParking(fragment);
+            }
+        });
 
+        Button mSearchParkerButton = (Button) parkerView.findViewById(R.id.btnSearchParker);
+        mSearchParkerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Fragment fragment = new Leaver();
+                searchParking(fragment);
+            }
+        });
+    }
+
+    public void searchParking(Fragment fragment) {
+        try {
+             // Insert the fragment by replacing any existing fragment
+            FragmentTransaction fragTransaction = getSupportFragmentManager().beginTransaction();
+            fragTransaction.replace(R.id.userMap, fragment);
+            fragTransaction.addToBackStack(null);
+            fragTransaction.commit();
+
+            // Set action bar title
+            setTitle("Search Leaver");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
