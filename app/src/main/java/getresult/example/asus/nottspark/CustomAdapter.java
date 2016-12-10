@@ -61,11 +61,11 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         }
 
         public TextView gettvPlaceTime() {
-            return tvPlaceName;
+            return tvPlaceTime;
         }
 
         public TextView gettvPlaceDate() {
-            return tvPlaceName;
+            return tvPlaceDate;
         }
 
         public ImageView getImageView() {
@@ -101,7 +101,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         // with that element
         Context context = viewHolder.getImageView().getContext();
         viewHolder.gettvPlaceName().setText(mDataSet[position].getCarPlate());
-        viewHolder.gettvPlaceTime().setText(mDataSet[position].getimgID());
+        viewHolder.gettvPlaceTime().setText(mDataSet[position].getTime());
         viewHolder.gettvPlaceDate().setText(mDataSet[position].getDate());
 //        Picasso.with(context).load(mDataSet[position].getimgID()).into(viewHolder.getImageView());
 
