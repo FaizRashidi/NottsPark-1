@@ -6,7 +6,8 @@
     android:orientation="vertical"
     android:padding="20dp"
     android:weightSum="1"
-    tools:context="getresult.example.asus.nottspark.UserProfile">
+    tools:context="getresult.example.asus.nottspark.UserProfile"
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
