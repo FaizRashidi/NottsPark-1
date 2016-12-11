@@ -1,99 +1,134 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:orientation="vertical"
-    android:padding="20dp"
-    android:weightSum="1"
     tools:context="getresult.example.asus.nottspark.UserRegistration">
 
-    <TextView
-        android:id="@+id/textView2"
+
+    <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Please fill in the following details"
-        android:textColor="@color/deeppurple"
-        android:textStyle="normal|bold" />
+        android:theme="@style/AppTheme.AppBarOverlay">
 
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="2dip"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/deeppurple" />
-    <EditText
-        android:id="@+id/username"
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/prompt_username" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/prompt_password"
-        android:inputType="textPassword" />
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:theme="@style/ToolBarStyle" />
 
-    <EditText
-        android:id="@+id/passwordReconfirm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/password_reconfirm" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Please fill in the following details"
+                android:textColor="@color/deeppurple"
+                android:textStyle="normal|bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/deeppurple" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_username" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/passwordReconfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_reconfirm" />
 
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Personal Info"
-        android:textColor="@color/deeppurple"
-        android:textStyle="normal|bold" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Personal Info"
+                android:textColor="@color/deeppurple"
+                android:textStyle="normal|bold" />
 
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="2dip"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
-        android:background="@color/deeppurple" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/deeppurple" />
 
-    <EditText
-        android:id="@+id/accName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Name"/>
+            <EditText
+                android:id="@+id/accName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name" />
 
-    <EditText
-        android:id="@+id/contactNum"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Contact Number" />
+            <EditText
+                android:id="@+id/contactNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Contact Number" />
 
-    <EditText
-        android:id="@+id/vehicleType"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Type of Vehicle" />
+            <EditText
+                android:id="@+id/vehicleType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type of Vehicle" />
 
-    <EditText
-        android:id="@+id/carPlate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Car Plate Number" />
+            <EditText
+                android:id="@+id/carPlate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Car Plate Number" />
 
-    <com.rey.material.widget.Button
-        android:id="@+id/addUser"
-        style="@style/Material.Drawable.Ripple.Touch"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/deeporange"
-        android:layout_gravity="right"
-        android:elevation="2dp"
-        android:text="submit"
-        android:textColor="@android:color/white"
-        app:rd_enable="true" />
+            <com.rey.material.widget.Button
+                android:id="@+id/addUser"
+                style="@style/Material.Drawable.Ripple.Touch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@color/deeporange"
+                android:elevation="2dp"
+                android:text="submit"
+                android:textColor="@android:color/white"
+                app:rd_enable="true" />
 
-</LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

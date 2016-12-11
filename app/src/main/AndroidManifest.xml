@@ -5,11 +5,11 @@
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the 'MyLocation' functionality. 
+         location permissions for the 'MyLocation' functionality.
     -->
     <permission
         android:name="example.gps.permission.MAPS_RECEIVE"
-        android:protectionLevel="signature"></permission>
+        android:protectionLevel="signature" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -40,24 +40,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".UserRegistration"
-            android:label="NottsPark User Registration"></activity>
-
+            android:label="Registration"
+            android:parentActivityName=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="getresult.example.asus.nottspark.LoginActivity" />
+        </activity>
         <activity
             android:name=".Parker"
-            android:label="Parker"></activity>
-
+            android:label="Parker"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="getresult.example.asus.nottspark.MainActivity" />
+        </activity>
         <activity
             android:name=".Leaver"
-            android:label="Leaver"></activity>
-
+            android:label="Leaver"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="getresult.example.asus.nottspark.MainActivity" />
+        </activity>
+        <activity android:name=".ParkerFound"></activity>
     </application>
 
 </manifest>

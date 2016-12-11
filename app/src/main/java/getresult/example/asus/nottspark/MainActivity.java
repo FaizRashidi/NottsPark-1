@@ -25,10 +25,6 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Intent intent = getIntent();
-        String username = intent.getStringExtra("USERNAME");
-
-
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -41,12 +37,15 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        onNavigationItemSelected(navigationView.getMenu().getItem(0));
 
+        Intent intent = getIntent();
+        String username = intent.getStringExtra("USERNAME");
         View setUserNameView = ((NavigationView) findViewById(R.id.nav_view)).getHeaderView(0);
         mNav_username = (TextView) setUserNameView.findViewById(R.id.nav_username);
         mNav_username.setText(username);
 
-        onNavigationItemSelected(navigationView.getMenu().getItem(0));
+
     }
 
     public void searchParker(View v) {

@@ -11,16 +11,16 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="110dp"
-        android:layout_marginBottom="25dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="10dp"
         android:background="@color/yellow"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_weight="0.20">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/profile_image"
-            android:layout_width="match_parent"
+            android:layout_width="141dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:src="@android:drawable/sym_def_app_icon"
             app:civ_border_color="@android:color/transparent"
             app:civ_border_width="2dp" />
@@ -62,7 +62,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Name"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:text="Vivian Yeoh" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -70,12 +71,13 @@
         android:layout_height="wrap_content">
 
         <EditText
-            android:id="@+id/profileEMAIL"
+            android:id="@+id/profileEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            android:maxLines="1" />
+            android:maxLines="1"
+            android:text="vivian.yeoh@travelconnector.com" />
     </android.support.design.widget.TextInputLayout>
 
 
@@ -89,6 +91,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
             android:hint="Contact Number"
+            android:text="0158568746"
             android:inputType="text|number" />
     </android.support.design.widget.TextInputLayout>
 
@@ -96,7 +99,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:text="Vehicles"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="normal|bold" />
@@ -107,7 +110,6 @@
         android:layout_marginBottom="5dp"
         android:layout_marginTop="5dp"
         android:background="@color/colorPrimaryDark" />
-
 
     <Spinner
         android:id="@+id/vehicleSpinner"
@@ -121,7 +123,6 @@
         android:fontFamily="sans-serif"
         android:paddingBottom="9dp"
         android:paddingTop="9dp"
-
         android:spinnerMode="dropdown"
         android:textSize="18sp" />
 
@@ -132,7 +133,20 @@
         android:layout_height="wrap_content"
         android:background="@color/teal"
         android:elevation="2dp"
-        android:text="@string/add_vehicle"
+        android:text="Add Vehicle"
+        android:textColor="@android:color/white"
+        app:rd_enable="true"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.10" />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/editProfile"
+        style="@style/Material.Drawable.Ripple.Touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deeporange"
+        android:elevation="2dp"
+        android:text="Edit Profile"
         android:textColor="@android:color/white"
         app:rd_enable="true" />
 
