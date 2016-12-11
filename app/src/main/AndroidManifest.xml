@@ -71,7 +71,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="getresult.example.asus.nottspark.MainActivity" />
         </activity>
-        <activity android:name=".ParkerFound"></activity>
+        <activity android:name=".ParkerFound" />
+        <activity android:name=".LeaverFound"></activity>
     </application>
 
 </manifest>

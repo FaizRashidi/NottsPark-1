@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:weightSum="1"
-    tools:context="getresult.example.asus.nottspark.ParkerFound">
+    tools:context="getresult.example.asus.nottspark.LeaverFound">
 
     <TextView
         android:id="@+id/textView4"
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-smallcaps"
         android:gravity="center"
-        android:text="Parker Found!"
+        android:text="Leaver Found!"
         android:textAppearance="@style/TextAppearance.AppCompat.Caption"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="36sp"
@@ -28,7 +28,7 @@
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/profile_image"
         android:layout_width="match_parent"
-        android:layout_height="192dp"
+        android:layout_height="124dp"
         android:layout_marginBottom="15dp"
         android:src="@android:drawable/sym_def_app_icon"
         app:civ_border_color="@android:color/transparent"
@@ -44,11 +44,29 @@
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Sport Complex"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <TextView
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Carplate: CDH 3691"
+        android:text="Vehicle: CDH 3691: Myvi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Description: Black Mvyi, my parking is next to tennis court."
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="18sp" />
 
