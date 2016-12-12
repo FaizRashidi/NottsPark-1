@@ -3,6 +3,7 @@ package getresult.example.asus.nottspark;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
@@ -71,6 +72,13 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
+
+        if(item.getItemId()==R.id.nav_logout){
+            DialogFragment dialog = new LogOut();
+            dialog.show(getSupportFragmentManager(), "Log Out");
+
+            return true;
+        }
         // Handle navigation view item clicks here.
         Fragment fragment = null;
         Class fragmentClass;
@@ -95,9 +103,6 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_feedback:
                 fragmentClass = Feedback.class;
-                break;
-            case R.id.nav_logout:
-                fragmentClass = LogOut.class;
                 break;
             default:
                 fragmentClass = MapFragment.class;
