@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\design\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.1_92ff07cba696ffb14a4f0e21721a21667f8f7c95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_33e6a92b114e0e187a9439707dcdd48fdc41b13e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="04bbbddf868aa02dd33f9e90d8f5d908c360f638">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.8.0_522fcdb99ab0fd0a69fcadd79bfe31e6af8a477b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.google.maps\google-maps-services\0.1.16\35be1874f3f1f2a461f1ce0f409da318b6c21365\google-maps-services-0.1.16.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="35be1874f3f1f2a461f1ce0f409da318b6c21365">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-maps-services-0.1.16_65f920edd5e0c34fdc245847e6679dfa23f441fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.8.0_168508a22b111eb0fa66dbd624cf74b64c66bd77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.8.0_146a9fd738ac099a62f17aa375476f70afdf18e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_b7a8b4e440a6041709361d8941b0d925df3b492c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.1_78334dbc1e400ebd323d319596755311c3c5af4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a7a04d6b7c01e569a285fa627cf64f5b05295906">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.8.0_e0fa3971ea05490124f6f550e2b65fee7def3f0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0b53c4b90654b67ee3892a8e2e7b819c083ab7a6">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.8.0_0b39c4924e308cdca346c31a71226331c85cf817\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="363a20f1d25336e827dd24020f2ecdc42d62638f">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.8.0_212d5ace5960f4b9d11a144c6aa4159739b50718\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.1_7c3669bc00b7f222ab018724593811b745fb9309\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b2cfdfd59b03643f1e240668275378b96615a8">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.8.0_104036c6e49ee1608a822cb8a3297a92b5d5543c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_ccebb9545c5da1b53c1ebc75ec0fe8296f782e8e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="679251204de40ace98776a6f4e3a649c27e3d89f">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.8.0_de411803f4b0ef13f9c271a37b34240438bc1f62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.1_43d48bd9d6e89303772a9aa856f0c0170cfbdf51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.8.0_ed582a8d312e2e89440230ad9788e69017ebe013\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="055eed08c9cff50cac0db69c74c4d9ff7aef3d84">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.8.0_f390b2587d73d827efaafee43699f405b334def7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.8.0_20bcea13f60d477cf24bad568c222ec7412e5ab7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.8.0_2e787697cfb1ca9a00ef57f59a22f7fe544a8c2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_91eaf069363ac613a48bd40a5d7015ac5ac9a53c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.4\89e9725439adffbbd41c5f5c215c136082b34a7f\joda-time-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="89e9725439adffbbd41c5f5c215c136082b34a7f">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.4_3641eba06e80e576d155f3b5c07cfe50fadb47c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="122ec9237acd8a57d974b9d529987f1ee6ca5aea">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.8.0_5cd05be70a0af0c61686db6ef34d0bfca3a998b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.8.0_178313766845486051895c72cbaa661b495ec83f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9dae58326f6f6a515022468cce56dd04ec3b9fdb">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.8.0_65ae5fee4d8acda56bf8356fd3f1bccf2815e95d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_784779b25ee5f2aa1664cc71318963add2e59ca2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.5\7a15a7db50f86c4b64aa3367424a60e3a325b8f1\okhttp-2.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.7.5_817ac5f0c338ac7c4b7f0f9458aa52dacb3aa5f7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="266570862e5792ef3c51143a8b8593cf54fac68d">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.8.0_b756bf2fe615997ba427560f5098f214acf353b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3e8d88aa9b26a39e0873861f4ab7485f841137ad">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9e1455a6de997eaf0281a561bdc20862556be29d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.1.0_0ca683091a724d4d8dd1df8a3928776a7dc2812f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f2b55b139c5d3e1eb9c8fe7d1b85995a68ac355f">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_02fd240d1eb58ce8af97a2e638ff1971e7a1c338\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ee5304fd374e0b4ebf6b42d4037fbfb2c5336511">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.8.0_950b95de26a25cc896a6450e0c702bb4a6e7e6e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.8.0_c3b4c559278a7f066c9709f200484af7564035ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.8.0_8ea5566e645decf24fe7a9516d09645ab50f992b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.1_f2f50069b74417bf94a49ccbaf03ff49882d4614\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.1_797445e08c6c93f598e48c87c946ce75d82576b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="85299bf1924dde0200109a58033c5ef84ecb6991">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.8.0_f1efa941f35d385142f53a2c1e08faf247536454\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="50e35ae101a679c4c8ef3dda075b1df9d5d947d9">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.8.0_9c8ec0bcfdd726382c974185bfc809dbb8ac8557\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a1ed98e01bd58976d80c062fd0ea2968a1ff68a1">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.8.0_c33364ca41f8542586cefe11559825950f1440f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_a69735fb31405abb6c5b972e1b2bb4f918f620e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_1039dcbcbf0d67eb631466fbfbeec3791fdf2164\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_78b1f3e18b4d76c4c7fe97d5c8e898015f909abd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\user\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.1_5238579494918095f6fc6011657cd4d401286e17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.1_3c83375b040c7e02aa9b84ffee8a0379041a98f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="910c013c511f752c4bbe24c5f492f669f4a3ccc0">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.8.0_01e9d9304b84aa7afd85d9d0d3d98f5f994a8329\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2d3035050a075484cbf2e33f1ce1f779bae4d451">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.8.0_8ab1466ef63503943e37f5af9c710584904471d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.1_ca4cb0008b8830ac8880c179504d12723249273c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f2d240dd085626f03f759c41d628a0c8b63e491f">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.8.0_c8c88bd8b9f1055e9f99de3575d194b489be7ae5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="0b8e087da59c0b062c33f49a335e59f907086da2">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.8.0_a66a5a151c9218dd8c920522752cb2a8a1c8e39d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a2537b11ae24b42172d34e2a613fc0b903c56158">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-9.8.0_7f333acfeae250a431f5408d928d74e6f58363c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_e6805ec23b8dde681ab4a031c5e4f962d828b42f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a30aea7df545072ad3c06f56b2efc13e67222140">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.8.0_7624bf40e1080ea56e7f2f3da8abdcea25bd1c00\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.1_242463611c6c0295beb381dab7d998336f8b1def\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_31611d485fe81875fa0e61e24b5acf9ab8aa2576\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.github.rey5137\material\1.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8419191d25f4105772fc16b55a005a270cb4d4c8">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.rey5137-material-1.2.4_4ac7b44ce1c4feb83da737a9e76b51d6ee6222d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.1_73c9fd112b76d3862fa7abfe1394afb3de95cbe5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_d1626a7d8a899c28e68118b09c90f2207a974733\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a972970c8beddb69c198f61f3fc55f0606a7dfe3">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.8.0_983471fc5689f4d90349a21685c623b504ce6179\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_7efb32462edb0d6a9429950b182caff94a6552be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.1_234bf91293b3ce3002baece130f431c95cfcb51c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.1_5b2ab7c7dd7ccf2a7c355921a296a55ae2b557fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="16afe57c1d7f8165d107c7806ce7b0c71de87159">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.8.0_6eeab7e7807f87c414102f05c452fb5311e1a956\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.8.0_0598a02851ca9eb314c1c8fb529b8d90298f7de3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3daa7a9c9009fd386872a84c177a76979bdcafd6">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.8.0_876069ce790969944ea269d5f6f63474eac316ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_dde98b64b590384c6029242548b153cd7e3d551d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ca851be26ff89f5b32cc222cee98139fb3fac830">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.8.0_b2e5eff7e6352660e3259ee5fb4b53aca1497c13\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cef85cfc7df40e29fbea58844dd4c1e7d0b15542">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.8.0_b98f57027feb414f9de0de04a4915cee92dfec58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.8.0_25df23eac626c0fca08db80f868338ba5e8c063c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e56f31b23ddb067f95f01255295167db7c798612">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.8.0_a524e8d086e9e5c83890a8d631955b2c974da851\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_883bd154db9f276af0a1ca46a1091394d5e5cd79\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.1_dc382535c95116a73bda7fdf8678e28eda252960\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="20a3c4e355150c15c13dd58045d43ad0c717d916">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.8.0_15d7318d9ca4860ddc4106807cda4f42305a36c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.1_1564768bdb619a900d420a12f4f6da408cbc825e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fbb3885c40e431cd2b0dc69c0cab2bf6d5da7b43">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.8.0_76e95689b68b7b3942bf6218fedce1de58458ac4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.8.0_07b83c9e6a37939fdbdd581293dbb767d1b5f250\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="74ac7cbcf0de4a88e59612dc3a9e3f9e71acb4ca">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.8.0_8e5edbf31dc6a3dee7c52c29e63962fa48bf552e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d358528c5a8731a6e19bca910cbb3fd755ee31">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-9.8.0_1b9260cf3faef9fa3296d9d5c18c69da3b2fd7dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.8.0_6d648b2c0aa5e15d48ae70b1c544412885bb8652\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.8.0_fb200e15cff2550d580a94d22979ad2c3600a1ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.8.0_bc6c1a0d080068ddd3b97b9615ffdb9f18cad0b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\NottsPark\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c81df6bd515398ebe45089b0b16c55752a131f6a">
+        <dex dex="D:\NottsPark\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.8.0_22b29624af9ca3245ce0c7372aae181076455a3f\classes.dex" />
+    </item>
+
+</items>

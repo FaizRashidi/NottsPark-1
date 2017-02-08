@@ -1,0 +1,7 @@
+#Mon Feb 06 16:58:02 SGT 2017
+base.0=D\:\\NottsPark\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_02fd240d1eb58ce8af97a2e638ff1971e7a1c338
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\NottsPark\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9e1455a6de997eaf0281a561bdc20862556be29d\\classes.dex
+base.1=D\:\\NottsPark\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_9e1455a6de997eaf0281a561bdc20862556be29d
+file.0=D\:\\NottsPark\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_02fd240d1eb58ce8af97a2e638ff1971e7a1c338\\classes.dex

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\NottsPark\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\nottslogo.png",
+        "source": "D:\\NottsPark\\app\\src\\main\\res\\mipmap-xhdpi\\nottslogo.png"
+    },
+    {
+        "merged": "D:\\NottsPark\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\kapashallmap.png",
+        "source": "D:\\NottsPark\\app\\src\\main\\res\\mipmap-xhdpi\\kapashallmap.png"
+    }
+]

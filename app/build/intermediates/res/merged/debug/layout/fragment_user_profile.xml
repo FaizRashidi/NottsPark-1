@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="1"
+    tools:context="getresult.example.asus.nottspark.UserProfile"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/yellow"
+        android:orientation="horizontal"
+        android:layout_weight="0.20">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="141dp"
+            android:layout_height="match_parent"
+            android:src="@android:drawable/sym_def_app_icon"
+            app:civ_border_color="@android:color/transparent"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:foregroundGravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profileUsername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:text="Username"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/profileCredit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:text="Credit" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/profileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:maxLines="1"
+            android:text="Vivian Yeoh" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/profileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:text="vivian.yeoh@travelconnector.com" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/profileContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:hint="Contact Number"
+            android:text="0158568746"
+            android:inputType="text|number" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Vehicles"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal|bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <Spinner
+        android:id="@+id/vehicleSpinner"
+        style="@style/Material.Widget.Spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:dropDownWidth="match_parent"
+        android:entries="@array/vehicle_array"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="9dp"
+        android:paddingTop="9dp"
+        android:spinnerMode="dropdown"
+        android:textSize="18sp" />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/addVehicle"
+        style="@style/Material.Drawable.Ripple.Touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal"
+        android:elevation="2dp"
+        android:text="Add Vehicle"
+        android:textColor="@android:color/white"
+        app:rd_enable="true"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="0.10" />
+
+    <com.rey.material.widget.Button
+        android:id="@+id/editProfile"
+        style="@style/Material.Drawable.Ripple.Touch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/deeporange"
+        android:elevation="2dp"
+        android:text="Edit Profile"
+        android:textColor="@android:color/white"
+        app:rd_enable="true" />
+
+</LinearLayout>
